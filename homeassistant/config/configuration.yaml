@@ -4,16 +4,16 @@ homeassistant:
   longitude: 117.22743
   elevation: 430
   unit_system: metric
-  currency: USD
+  currency: EU
   time_zone: "America/Los_Angeles"
-  external_url: "https://www.example.com"
-  internal_url: "http://homeassistant.local:8123"
+  external_url: "https://bg144.sytes.net"
+  internal_url: "http://10.0.0.229:8123"
   allowlist_external_dirs:
     - "/usr/var/dumping-ground"
     - "/tmp"
-  allowlist_external_urls:
-    - "http://images.com/image1.png"
-  media_dirs:
-    media: "/media"
-    recordings: "/mnt/recordings"
+# allowlist_external_urls:
+#   - "http://images.com/image1.png"
+# media_dirs:
+#   media: "/media"
+#   recordings: "/mnt/recordings"
   legacy_templates: false
